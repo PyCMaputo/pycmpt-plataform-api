@@ -17,3 +17,12 @@ Python Community Maputo Plataforma
 * 2- create virtual virtual env
 * 2.1- active you virtual env
 * 3- install dependeces
+### 3.1-to developnt
+* pip install -r requirements-dev.txt
+### 3.2- to production
+* pip install -r requirements.txt
+
+*Install requirements-dev.txt now.*
+
+Thank you Community.
+
