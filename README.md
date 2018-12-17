@@ -2,14 +2,14 @@
 Python Community Maputo Plataforma
 
 # folders
-*accounts*
+#*accounts*
 Accounts System. Django costum user model
 
-*pymptapi*
-main folder(forlder of setings and etc)
+#*pymptapi*
+*main folder(forlder of setings and etc)*
 
-*plataform*
-app plataform. All that you need now.
+#*plataform*
+*app plataform. All that you need now.*
 
 # Instalation
 
