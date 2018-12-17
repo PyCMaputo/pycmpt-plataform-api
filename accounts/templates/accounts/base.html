@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dzudza</title>
+
+
+
+    <link rel="stylesheet" href="{% static 'home/bootstrap/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'home/bootstrap/css/bootstrap-grid.css' %}">
+    <link rel="stylesheet" href="{% static 'home/bootstrap/css/bootstrap-reboot.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+    <!--<link rel="stylesheet" href="{% static 'home/fonte/fontawesome/web-fonts-with-css/css/fontawesome-all.css' %}">-->
+    <link rel="stylesheet" href="{% static 'home/fonts/font-awesome/css/font-awesome.min.css' %}">
+    <!--<link rel="stylesheet" href="{% static 'home/css/movimento.css' %}">-->
+    <!--cursos css-->
+    <!--<link rel="stylesheet" href="{% static 'home/css/courses.css' %}">-->
+    <link rel="stylesheet" href="{% static 'home/css/animate.css' %}">
+
+    <!--dzudza-->
+    <link rel="stylesheet" href="{% static 'home/css/plugin.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/compraCart.css' %}">
+
+
+</head>
+<body>
+<div id="loaderPageStart">
+    <div class='loader'><i class='fa fa-spin fa-spinner loaderIcon'></i></div>
+</div>
+{% block content_page %}
+
+{% endblock  %}
+
+<div class="container-fluid bg-success">
+
+</div>
+
+
+<script src="{% static 'home/js/jquery.js' %}"></script>
+<script src="{% static 'home/bootstrap/js/bootstrap.bundle.js' %}"></script>
+<script src="{% static 'home/bootstrap/js/bootstrap.js' %}"></script>
+
+<script src="{% static 'home/js/vue.js' %}"></script>
+<script src="{% static 'home/js/appVue.js' %}"></script>
+
+
+
+</body>
+</html>
+

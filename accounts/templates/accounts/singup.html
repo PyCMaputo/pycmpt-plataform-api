@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastrar</title>
+</head>
+<body>
+<form action="{% url 'url_create_account' %}" method="POST">
+	{% csrf_token %}
+	{{form}}
+	<input type="submit" value="enviar">
+</form>
+</body>
+</html>
